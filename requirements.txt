@@ -1,0 +1,8 @@
+Flask
+Flask-SQLAlchemy
+Flask-Bcrypt
+Flask-Mail
+Flask-Login
+requests
+gunicorn
+pymysql
