@@ -27,9 +27,7 @@ def login():
             'auth_token': user.get_auth_token(),
             'name': user.name,
             'email': user.email,
-            'gt_id': user.gt_id,
             'isAdmin': user.isAdmin,
-            'isMaster': user.isMaster,
             'status': 1
         }
         return json.dumps(final_dict)
